@@ -15,6 +15,10 @@ const CustomBox = styled(Box)`
     height: 370px;
     width: 370px;
     box-shadow: 10px 10px 7px #6e6660;
+
+    @media(max-width: 670px){
+        width: 300px;
+    }
 `
 
 const LoginInputs = styled.div`
