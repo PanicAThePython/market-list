@@ -1,20 +1,30 @@
-import { LoginForm } from "../../components/login";
-import { HeaderLogo, Subtitle } from "./styles/styles";
-import MarketListLogo from "../../assets/images/market-list-logo.svg"
+import { LoginForm } from "../../components/LoginForm";
+import { CustomImg, CustomLinkPng, CustomMain, Subtitle } from "./styles/styles";
 import CartIllustration from "../../assets/images/shopping.png"
 
 export function InitialPage() {
     return (
-        <div>
-            <HeaderLogo>
-                <img src={MarketListLogo} alt="Logo MarketList"/>
-                <Subtitle>Crie suas listas de supermercado e leve-as aonde for!</Subtitle>
-            </HeaderLogo>
-            
-            <main style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', position: 'relative', bottom: '20px'}}>
-                <img src={CartIllustration} alt="mulher com carrinho de compras" width={'500px'} />
+        <div>       
+            <Subtitle>Crie suas listas de supermercado e leve-as aonde for!</Subtitle>
+            <CustomMain>
+                <div style={{display: 'flex', flexDirection: 'column'}}>
+                    <CustomImg src={CartIllustration} alt="mulher com carrinho de compras" />
+                    <CustomLinkPng>
+                        {/* <a href='https://pt.pngtree.com/freepng/shopping-cart-mobile-shopping_5407927.html'>imagem PNG de pt.pngtree.com/</a> */}
+                        <a
+                            href='https://pt.pngtree.com/freepng/happy-enjoy-supermarket-cart_3954334.html'
+                            style={{
+                                color: '#2e2723',
+                                textDecoration: 'none'
+                            }}
+                        >
+                            imagem PNG de pt.pngtree.com/
+                        </a>
+                    </CustomLinkPng>
+                </div>
                 <LoginForm style={{marginLeft: '500px'}}/>
-            </main>
+            </CustomMain>
+            <footer style={{textAlign: 'center', paddingBottom: '50px', position: 'relative', marginTop: '150px'}}>© 2024, MarketList.</footer>
         </div>
     )
 }
