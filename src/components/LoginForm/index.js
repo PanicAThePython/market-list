@@ -35,6 +35,7 @@ export function LoginForm() {
                     styles={{border: 'none'}} 
                     error={!isEmailValid}
                     helperText={getMessageEmail()}
+                    required
                     onChange={
                         (e) => {
                             setEmail(e.target.value)
@@ -50,6 +51,7 @@ export function LoginForm() {
                     type='password'
                     error={isPasswordInvalid}
                     helperText={getMessagePassword()}
+                    required
                     onChange={
                         (e) => {
                             setPassword(e.target.value)

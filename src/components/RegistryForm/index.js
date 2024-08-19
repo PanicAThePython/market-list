@@ -45,6 +45,7 @@ export function RegistryForm(){
                     label="Seu nome"
                     error={!isNameValid}
                     helperText={getMessageName()}
+                    required
                     onChange={
                         (e) => {
                             setName(e.target.value)
@@ -61,6 +62,7 @@ export function RegistryForm(){
                     styles={{border: 'none'}} 
                     error={!isEmailValid}
                     helperText={getMessageEmail()}
+                    required
                     onChange={
                         (e) => {
                             setEmail(e.target.value)
@@ -76,6 +78,7 @@ export function RegistryForm(){
                     type='password'
                     error={isPasswordInvalid}
                     helperText={getMessagePassword()}
+                    required
                     onChange={
                         (e) => {
                             setPassword(e.target.value)

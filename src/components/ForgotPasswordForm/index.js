@@ -1,8 +1,7 @@
 import { useState } from "react";
-import { CustomButton, CustomTextField } from "../LoginForm/styles/styles";
-import { CustomBox, LoginInputs } from "./styles/styles";
+import { CustomBox, CustomButton, CustomTextField, LoginInputs } from "./styles/styles";
 
-export function ForgotPasswordForm(){
+export function ForgotPasswordForm({handleEmail}){
     const [email, setEmail] = useState('')
     const [isEmailValid, setIsEmailValid] = useState(true)
 
@@ -24,6 +23,7 @@ export function ForgotPasswordForm(){
                     styles={{border: 'none'}}
                     error={!isEmailValid}
                     helperText={getMessageEmail()}
+                    required
                     onChange={
                         (e) => {
                             setEmail(e.target.value)
@@ -33,7 +33,13 @@ export function ForgotPasswordForm(){
                     }
                 >
                 </CustomTextField>
-                <CustomButton variant='contained' type='submit'>Enviar</CustomButton>
+                <CustomButton
+                    variant='contained'
+                    type='submit'
+                    onClick={() => handleEmail()}
+                >
+                    Enviar
+                </CustomButton>
             </LoginInputs>
         </CustomBox>
     )

@@ -24,6 +24,10 @@ const CustomImg = styled.img`
         width: 250px;
         margin-top: 100px;
     }
+
+    @media(max-width: 400px){
+        margin-top: 150px;
+    }
 `
 
 const CustomLinkPng = styled.p`

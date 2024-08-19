@@ -1,28 +1,17 @@
-import { Box, Button, Link, TextField } from "@mui/material";
+import { Box, Button, TextField } from "@mui/material";
 import styled from "styled-components";
 
-const TitleForm = styled.h3`
-    text-align: left;
-    color: white;
-    font-size: 36px;
-    margin-bottom: 24px;
-    margin-top: 24px;
-`
 const CustomBox = styled(Box)`
     background-color: #E58328;
     border-radius: 8px;
     padding: 10px 30px 40px;
-    height: 370px;
-    width: 370px;
+    height: 200px;
+    width: 300px !important;
+    margin-left: 0px !important;
     box-shadow: 10px 10px 7px #6e6660;
 
-    @media(max-width: 670px){
-        width: 300px;
-    }
-    
     @media(max-width: 400px){
-        width: 250px;
-        height: 400px;
+        width: 250px !important;
     }
 `
 
@@ -30,8 +19,9 @@ const LoginInputs = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 270px;
+    height: 230px;
 `
+
 
 const CustomTextField = styled(TextField)`
     border: 0;
@@ -75,14 +65,4 @@ const CustomButton = styled(Button)`
     }
 `
 
-const CustomLinks = styled(Link)`
-    color: white !important;
-    text-decoration: none !important;
-    text-align: right;
-
-    &:hover{
-        text-decoration: underline !important;
-    }
-`
-
-export { TitleForm, CustomBox, LoginInputs, CustomTextField, CustomButton, CustomLinks}
+export { CustomBox, LoginInputs, CustomTextField, CustomButton }

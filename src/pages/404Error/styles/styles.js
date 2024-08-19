@@ -50,4 +50,18 @@ const CustomFooter = styled.footer`
     }
 `
 
-export { CustomPError, ErrorMessage, CustomMain, CustomImg, CustomFooter }
+const CustomLink = styled.a`
+    color: #B5651C;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -20px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover{
+        text-decoration: underline;
+    }
+`
+
+export { CustomPError, ErrorMessage, CustomMain, CustomImg, CustomFooter, CustomLink }

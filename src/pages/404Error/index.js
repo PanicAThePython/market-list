@@ -1,5 +1,5 @@
 import NotFoundIllustration from "../../assets/images/carrinho-vazio.png"
-import { CustomFooter, CustomImg, CustomMain, CustomPError, ErrorMessage } from "./styles/styles"
+import { CustomFooter, CustomImg, CustomLink, CustomMain, CustomPError, ErrorMessage } from "./styles/styles"
 
 export function Error404Page() {
 
@@ -9,6 +9,9 @@ export function Error404Page() {
                 <div style={{textAlign: 'left', width: '300px', display: 'flex', flexDirection: 'column'}}>
                     <ErrorMessage>404 ERROR</ErrorMessage>
                     <CustomPError>A página que você está tentando acessar não existe</CustomPError>
+                    <CustomLink href="/">
+                        Voltar à página inicial
+                    </CustomLink>
                     <a 
                         href="https://www.flaticon.com/br/stickers-gratis/vazio" 
                         title="vazio figurinhas"
