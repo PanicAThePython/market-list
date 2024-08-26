@@ -49,7 +49,7 @@ export function RegistryForm(){
                     onChange={
                         (e) => {
                             setName(e.target.value)
-                            if (!e.target.value.length <= 1) setIsNameValid(false)
+                            if (e.target.value.length <= 1) setIsNameValid(false)
                             else setIsNameValid(true)
                         }
                     }
