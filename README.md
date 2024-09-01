@@ -1,6 +1,6 @@
 # MarketList
 
-O presente projeto é uma aplicação frontend para um sistema de gerenciamento de listas de supermercado. Todas as imagens usadas no projeto possuem o link para acessá-las logo abaixo, com exceção do link da imagem de perfil que não coube. [Link para imagem de perfil](https://www.freeiconspng.com/img/898).
+O presente projeto é uma aplicação frontend para um sistema de gerenciamento de listas de supermercado. A logo do MarketList foi criada por mim. O restante das imagens usadas no projeto foram obtidas em sites de png free e possuem o link para acessá-las logo abaixo, com exceção do link da imagem de perfil que não coube. [Link para imagem de perfil](https://www.freeiconspng.com/img/898).
 
 ## Design das telas
 
