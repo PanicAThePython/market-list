@@ -9,7 +9,7 @@ Todas as telas foram desenhadas no Figma, tanto na versão desktop quanto na mob
 ## Como rodar?
 
 Basta clonar o presente repositório na sua máquina e rodar ```npm install``` seguido de ```npm start```. O projeto será aberto na página inicial (login).
-Caso queira ver a aplicação em funcionamento, mas não queira clonar o repositório, [clique aqui e veja um vídeo demonstrando o MarketList em funcionamento](https://www.linkedin.com/feed/update/urn:li:activity:7233891570050101248/).
+Caso queira ver a aplicação em funcionamento, mas não queira clonar o repositório, [clique aqui e veja um vídeo demonstrando o MarketList em funcionamento](https://www.linkedin.com/posts/natalia-weise_h%C3%A1-alguns-dias-atr%C3%A1s-me-desafiei-com-um-activity-7233891570050101248-K8Md?utm_source=share&utm_medium=member_desktop).
 
 ### Quais são as rotas?
 
