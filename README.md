@@ -1,6 +1,12 @@
 # MarketList
 
-O presente projeto é uma aplicação frontend para um sistema de gerenciamento de listas de supermercado. A logo do MarketList foi criada por mim. O restante das imagens usadas no projeto foram obtidas em sites de png free e possuem o link para acessá-las logo abaixo, com exceção do link da imagem de perfil que não coube. [Link para imagem de perfil](https://www.freeiconspng.com/img/898).
+O presente projeto é uma aplicação frontend para um sistema de gerenciamento de listas de supermercado. A logo do MarketList foi criada por mim. O restante das imagens usadas no projeto foram obtidas em sites de png free e possuem o link para acessá-las logo abaixo delas próprias, com exceção do link da imagem de perfil que não coube. [Link para imagem de perfil](https://www.freeiconspng.com/img/898).
+
+Para facilitar, estarei disponibilizando novamente os links das imagens, mas aqui no README. Seguem links:
+* [Imagem da página inicial](https://pt.pngtree.com/freepng/happy-enjoy-supermarket-cart_3954334.html);
+* [Imagem da página de cadastro](https://pt.pngtree.com/freepng/shopping-cart-mobile-shopping_5407927.html);
+* [Link para pesquisa da imagem da página de erro](https://www.flaticon.com/br/stickers-gratis/vazio);
+* [Link para pesquisa de imagem da página de perfil - sem listas](https://www.flaticon.com/br/icones-gratis/carrinho-vazio).
 
 ## Design das telas
 
